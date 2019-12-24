@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7dc62bf1-b2b3-4667-8ff0-a0f489939fdf</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>patent_paper.py</StartupFile>
+    <StartupFile>paper_eval.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="patent_paper.py" />
+    <Compile Include="paper_eval.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="paper_inference.py" />
+    <Compile Include="paper_train.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

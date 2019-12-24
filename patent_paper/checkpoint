@@ -1,0 +1,5 @@
+model_checkpoint_path: "E:\\Git\\patent_paper\\patent_paper\\model.ckpt-3001"
+all_model_checkpoint_paths: "E:\\Git\\patent_paper\\patent_paper\\model.ckpt-1"
+all_model_checkpoint_paths: "E:\\Git\\patent_paper\\patent_paper\\model.ckpt-1001"
+all_model_checkpoint_paths: "E:\\Git\\patent_paper\\patent_paper\\model.ckpt-2001"
+all_model_checkpoint_paths: "E:\\Git\\patent_paper\\patent_paper\\model.ckpt-3001"
