@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7dc62bf1-b2b3-4667-8ff0-a0f489939fdf</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>paper_eval.py</StartupFile>
+    <StartupFile>paper_train.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
